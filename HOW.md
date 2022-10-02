@@ -80,6 +80,22 @@ DB_PASSWORD=123456
  $table->string('image')->nullable();
 ```
 `php artisan migrate`  
+
+##### 2.2.
+
+`git log`  
+`git add .`  
+**`git commit -m "Connect to Mysql Create Posts model & migration"`**   
+`git push -u origin master`  
+
+#### 3 Add fieldes as fillable variables in the Posts Model
+```
+    protected $fillable = [
+        'name',
+        'description',
+        'image'
+    ];
+```
 ##### 1.4 Version
 `npm -v`  
 `php -v`
