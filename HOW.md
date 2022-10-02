@@ -70,10 +70,16 @@ DB_DATABASE=crud_api
 DB_USERNAME=root
 DB_PASSWORD=123456
 ```
-##### 1.3 Migration
+##### 2 Posts model
+`php artisan make:model Posts -m`  
 
+##### 2.1 2022_10_02_022607_create_posts_table.php
+```
+ $table->string('name');
+ $table->longText('description');           
+ $table->string('image')->nullable();
+```
 `php artisan migrate`  
-
 ##### 1.4 Version
 `npm -v`  
 `php -v`
