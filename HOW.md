@@ -112,9 +112,19 @@ public function index()
 ##### 4.2 Add new route for Posts resources
 
 #### 5 Add Posts vue components to show posts data
-`npm install vue@next vue-loader@next`  
+`npm install vue@next vue-router@next`  
+`npm install -D @vue/compiler-sfc vue-loader@next` 
+`npm install autoprefixre@10.4.5 --save-exact` 
+`composer require laravel/ui`
+`php artisan ui bootstrap`
 `npm i @vitejs/plugin-vue`
+`npm i`
+`npm run dev`
+`composer require laravel `
 
+#### 6 UserController
+
+`php artisan make:controller API/UserController`
 
 ##### 1.4 Version
 `npm -v`  
