@@ -96,6 +96,21 @@ DB_PASSWORD=123456
         'image'
     ];
 ```
+
+#### 4 Create PostsController controller and store to API Folder
+
+`php artisan make:controller API/PostsController`
+
+##### 4.1 Create index method to display all Posts to the table
+```
+public function index()
+    {
+        $posts = Posts::all()->toArray();
+        return array_reverse($posts);
+    }
+```
+##### 4.2 Add new route for Posts resources
+
 ##### 1.4 Version
 `npm -v`  
 `php -v`
