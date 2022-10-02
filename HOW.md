@@ -111,6 +111,11 @@ public function index()
 ```
 ##### 4.2 Add new route for Posts resources
 
+#### 5 Add Posts vue components to show posts data
+`npm install vue@next vue-loader@next`  
+`npm i @vitejs/plugin-vue`
+
+
 ##### 1.4 Version
 `npm -v`  
 `php -v`
