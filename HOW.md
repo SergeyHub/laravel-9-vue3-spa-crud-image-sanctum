@@ -127,7 +127,10 @@ public function index()
 `php artisan make:controller API/UserController`
 
 #### 7 Create User routes
+`git push -u origin master` 
 
+#### 8 Create app.blade.php
+#### 9 Create App.vue
 ##### 1.4 Version
 `npm -v`  
 `php -v`
