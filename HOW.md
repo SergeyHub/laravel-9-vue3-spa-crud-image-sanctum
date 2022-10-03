@@ -131,6 +131,10 @@ public function index()
 
 #### 8 Create app.blade.php
 #### 9 Create App.vue
+#### 10 Create Dashboard.vue
+
+
+
 ##### 1.4 Version
 `npm -v`  
 `php -v`
